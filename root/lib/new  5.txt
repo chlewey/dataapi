@@ -1,0 +1,12 @@
+
+Object Site
+Object Display
+Object Page
+
+Class Module
+
+require_once lib/cms.php
+	require_once mod/modules.php --> lib/modules.php
+require_once this_site.php
+require_once 
+

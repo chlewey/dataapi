@@ -1,0 +1,61 @@
+
+
+!! General modules
+
+!module static
+path . display:root
+path about display:root
+path status display:
+
+!module blog
+load preview
+path blog :entry
+path blog$ blog:index
+
+!module contact
+path contact
+
+!module users
+path login
+path user users:
+
+!module groups
+!module catalog
+path products catalog:catalog
+
+!module cache
+load cache
+
+!module 
+
+!! Configuration modules
+
+!module oruga
+alias oruga about
+alias contacto contact
+hide products
+mimic ventas,alquiler,maquinaria products
+
+
+!! description
+!---
+path: creates a new uri path,
+	first parameter is the uri prefix.  There might be several uri prefixes separated by commas.
+	'.' means root (empty prefix)
+	'/' means the root directory index, '.$' is also allowed.
+	'word' means a directory.  uri should match 'word', 'word/' or 'word/'.$something
+	'word$' means a directory index
+	'word1/word2' means a directory and subdirectory
+	'word.' means a virtual filename with any extension
+	'word.ext' means a virtual filename with only 'ext' extension
+	'word1/word2.' means a virtual filename inside a directory, also accepts an extension
+
+	second parameter is the make function, it has the following sintax
+	[blank] means that the module code and make function have the same name as the uri prefix
+	':' same as [blank]
+	'word' means that the make function is 'word' (actually "make_".'word') on an existing code
+	'word1:word2' means that the make function is 'word2' and the module code is a file called 'word1' (actually 'word1'.".php" inside the module root directory
+	':word' means that the make function is 'word' and the module code is the same as the uri prefix
+	'word:' means that the make function is the same as teh uri prefix and the module code is called 'word'
+	word1 could contain some non-geminated slashes:
+	/somepath/word1 means that the file is set
