@@ -1,0 +1,41 @@
+<?php
+
+class api {
+	public $R = array();
+	function __construct($apiname,$apiversion) {
+		$this->R = array('api'=>$apiname,'version'=>$apiversion);
+		if(isset($GLOBALS['debuging'])) {
+			$this->debuging = true;
+			ob_start();
+		}
+		$this->SID = $SID = session_id();
+		if(empty($SID)) session_start();
+	}
+
+	function debug() { return !empty($this->debuging); }
+
+	function response($key,$value) {
+		$this->R[$key] = $value;
+	}
+	function resp_add($key,$value,$key2=null) {
+		if(!isset($this->R[$key])) $this->R[$key] = array();
+		if(empty($key2))
+			$this->R[$key][] = $value;
+		else
+			$this->R[$key][$key2] = $value;
+	}
+
+	function close() {
+		if($this->debug()) {
+			$d = ob_get_clean();
+			if(!empty($d)) $this->R['debug'] = $d;
+		}
+		header('Content-type: application/json;charset=utf8');
+		echo json_encode($this->R);
+	}
+
+	function status() {
+	}
+};
+
+?>

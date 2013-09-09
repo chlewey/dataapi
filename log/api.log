@@ -1,0 +1,769 @@
+[Tue Apr 16 10:39:49 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:26:41 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:26:42 2013] [error] [client 186.85.77.21] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'orugadata'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:26:42 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: a in /var/www/vhosts/api/root/datalog.php on line 13, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:26:42 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:27:08 2013] [error] [client 186.85.77.21] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'orugadata'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:27:08 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: a in /var/www/vhosts/api/root/datalog.php on line 13, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:27:08 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:29:04 2013] [error] [client 186.85.77.21] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'orugadata'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:29:04 2013] [error] [client 186.85.77.21] PHP Warning:  mysqli::close(): Couldn't fetch db in /var/www/vhosts/api/root/datalog.php on line 12, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:29:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:29:32 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: a in /var/www/vhosts/api/root/datalog.php on line 17, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:29:32 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:29:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:38:31 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:38:40 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 11:38:40 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:39:03 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 11:39:03 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:39:08 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 11:39:09 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:40:46 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:42:31 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$_REQUEST' (T_VARIABLE) in /var/www/vhosts/api/root/datalog.php on line 10
+[Tue Apr 16 11:42:41 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$_REQUEST' (T_VARIABLE) in /var/www/vhosts/api/root/datalog.php on line 10
+[Tue Apr 16 11:42:41 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:42:42 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$_REQUEST' (T_VARIABLE) in /var/www/vhosts/api/root/datalog.php on line 10
+[Tue Apr 16 11:42:42 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:42:59 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$_REQUEST' (T_VARIABLE) in /var/www/vhosts/api/root/datalog.php on line 10
+[Tue Apr 16 11:42:59 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:43:01 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:43:02 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$_REQUEST' (T_VARIABLE) in /var/www/vhosts/api/root/datalog.php on line 10
+[Tue Apr 16 11:43:02 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:43:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:43:20 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$_REQUEST' (T_VARIABLE) in /var/www/vhosts/api/root/datalog.php on line 10, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:43:30 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:43:31 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:43:32 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$_REQUEST' (T_VARIABLE) in /var/www/vhosts/api/root/datalog.php on line 10, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:43:37 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 11:43:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:43:56 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:44:10 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:49:06 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ')' in /var/www/vhosts/api/root/datalog.php on line 14, referer: http://api2.orugaamarilla.com/
+[Tue Apr 16 11:49:20 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:51:32 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:53:29 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:54:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:54:51 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:54:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:54:59 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 11:55:06 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:05:11 2013] [error] [client 186.85.77.21] PHP Fatal error:  Class 'db' not found in /var/www/vhosts/api/root/datalog.php on line 32
+[Tue Apr 16 12:05:11 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:05:59 2013] [error] [client 186.85.77.21] PHP Fatal error:  Class 'db' not found in /var/www/vhosts/api/root/datalog.php on line 37
+[Tue Apr 16 12:05:59 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:07:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:08:23 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined function il_add() in /var/www/vhosts/api/root/lib/db.php on line 279
+[Tue Apr 16 12:08:23 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:08:53 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/datalog.php on line 34
+[Tue Apr 16 12:08:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:09:29 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:10:44 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:16:49 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:16:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:17:03 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:17:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:17:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:17:05 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:17:06 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:17:43 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:18:46 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:18:56 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 12:18:57 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:19:02 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 12:19:02 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:19:18 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 12:19:18 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:20:13 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 12:20:13 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:20:17 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 12:20:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:20:49 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:21:36 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 12:21:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:22:52 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 12:22:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:22:53 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 12:22:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:22:58 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:23:05 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:33:12 2013] [error] [client 186.85.77.21] PHP Fatal error:  Function name must be a string in /var/www/vhosts/api/root/datalog.php on line 23
+[Tue Apr 16 12:33:12 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:33:42 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined index: user in /var/www/vhosts/api/root/datalog.php on line 23
+[Tue Apr 16 12:33:43 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:34:33 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:52:42 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/datalog.php on line 37
+[Tue Apr 16 12:52:58 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/datalog.php on line 37
+[Tue Apr 16 12:52:59 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:53:07 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/datalog.php on line 37
+[Tue Apr 16 12:53:07 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 12:53:41 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/datalog.php on line 37
+[Tue Apr 16 12:53:41 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:17:56 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/datalog.php on line 37
+[Tue Apr 16 13:17:56 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:18:13 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/datalog.php on line 37
+[Tue Apr 16 13:18:27 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/datalog.php on line 37
+[Tue Apr 16 13:18:27 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:18:39 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/datalog.php on line 37
+[Tue Apr 16 13:18:39 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:18:56 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:19:10 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:19:19 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:19:32 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:19:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:19:42 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined function user_params() in /var/www/vhosts/api/root/datalog.php on line 87
+[Tue Apr 16 13:19:42 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:20:10 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:20:28 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:20:35 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:20:50 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:21:07 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/datalog.php on line 38
+[Tue Apr 16 13:21:07 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:21:15 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:21:22 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:21:29 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:21:38 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:21:46 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:21:58 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:22:25 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:22:31 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:23:24 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:23:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:25:10 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:25:41 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:29:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:29:59 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:30:07 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:30:18 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:33:28 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:33:44 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:33:50 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:34:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:35:01 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:38:27 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:38:44 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:39:20 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:39:35 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:39:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:40:18 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:45:29 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/vhosts/api/root/datalog.php on line 63
+[Tue Apr 16 13:45:50 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/vhosts/api/root/datalog.php on line 63
+[Tue Apr 16 13:45:50 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:46:09 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /var/www/vhosts/api/root/datalog.php on line 63
+[Tue Apr 16 13:46:09 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:46:26 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:46:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:46:48 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:46:55 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:47:29 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:48:23 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined function base_info() in /var/www/vhosts/api/root/datalog.php on line 104
+[Tue Apr 16 13:48:23 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:52:12 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:53:57 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /var/www/vhosts/api/root/datalog.php on line 104
+[Tue Apr 16 13:54:06 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:54:14 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:55:27 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: us in /var/www/vhosts/api/root/datalog.php on line 63
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 106
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 107
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 108
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 106
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 107
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 108
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 106
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 107
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 108
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 106
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 107
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 108
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 106
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 107
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 108
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 106
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 107
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 108
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:55:48 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: us in /var/www/vhosts/api/root/datalog.php on line 63
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:13 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: us in /var/www/vhosts/api/root/datalog.php on line 63
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in isset or empty in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] PHP Warning:  Illegal offset type in /var/www/vhosts/api/root/datalog.php on line 105
+[Tue Apr 16 13:59:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:00:05 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: us in /var/www/vhosts/api/root/datalog.php on line 63
+[Tue Apr 16 14:00:05 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:00:33 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:02:03 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:02:24 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:03:21 2013] [error] [client 186.85.77.21] PHP Fatal error:  Class 'datalog' not found in /var/www/vhosts/api/root/datalog.php on line 4
+[Tue Apr 16 14:03:21 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:03:22 2013] [error] [client 186.85.77.21] PHP Fatal error:  Class 'datalog' not found in /var/www/vhosts/api/root/datalog.php on line 4
+[Tue Apr 16 14:03:23 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:04:51 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '__construct' (T_STRING), expecting variable (T_VARIABLE) in /var/www/vhosts/api/root/lib/datalog.php on line 8
+[Tue Apr 16 14:04:51 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:05:12 2013] [error] [client 186.85.77.21] PHP Fatal error:  Class 'datalog' not found in /var/www/vhosts/api/root/datalog.php on line 4
+[Tue Apr 16 14:05:12 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:05:38 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined function go() in /var/www/vhosts/api/root/datalog.php on line 5
+[Tue Apr 16 14:05:38 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:16:22 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';', expecting '(' in /var/www/vhosts/api/root/lib/api.php on line 17
+[Tue Apr 16 14:16:22 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:16:44 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined function go() in /var/www/vhosts/api/root/datalog.php on line 5
+[Tue Apr 16 14:16:44 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:19:42 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:20:39 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:37:17 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /var/www/vhosts/api/root/lib/datalog.php on line 18
+[Tue Apr 16 14:37:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:37:30 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /var/www/vhosts/api/root/lib/datalog.php on line 18
+[Tue Apr 16 14:37:30 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:38:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:38:25 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:38:34 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:38:40 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:38:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:39:02 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:42:12 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: user in /var/www/vhosts/api/root/lib/datalog.php on line 21
+[Tue Apr 16 14:42:12 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: user in /var/www/vhosts/api/root/lib/datalog.php on line 17
+[Tue Apr 16 14:42:12 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:42:51 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:49:07 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined function user_params() in /var/www/vhosts/api/root/lib/datalog.php on line 20
+[Tue Apr 16 14:49:07 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:49:29 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: user in /var/www/vhosts/api/root/lib/datalog.php on line 20
+[Tue Apr 16 14:49:29 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: user in /var/www/vhosts/api/root/lib/datalog.php on line 21
+[Tue Apr 16 14:49:30 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:49:45 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: user in /var/www/vhosts/api/root/lib/datalog.php on line 21
+[Tue Apr 16 14:49:45 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:49:56 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:50:17 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined function auth_user() in /var/www/vhosts/api/root/lib/datalog.php on line 103
+[Tue Apr 16 14:50:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:50:39 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:51:05 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:51:05 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:53:48 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 14:55:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:00:48 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /var/www/vhosts/api/root/lib/datalog.php on line 139
+[Tue Apr 16 15:00:48 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:01:00 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /var/www/vhosts/api/root/lib/datalog.php on line 139
+[Tue Apr 16 15:01:16 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /var/www/vhosts/api/root/lib/datalog.php on line 139
+[Tue Apr 16 15:01:16 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:01:28 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:01:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:01:52 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /var/www/vhosts/api/root/lib/datalog.php on line 139
+[Tue Apr 16 15:02:00 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:02:00 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: bases in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:02:01 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:03:11 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /var/www/vhosts/api/root/lib/datalog.php on line 139
+[Tue Apr 16 15:04:04 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:04:04 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: bases in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:04:04 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 141
+[Tue Apr 16 15:04:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:04:37 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:04:37 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: bases in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:04:37 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 141
+[Tue Apr 16 15:04:37 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: bases in /var/www/vhosts/api/root/lib/datalog.php on line 148
+[Tue Apr 16 15:04:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:05:40 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:05:40 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined property: datalog::$bases in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:05:40 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 141
+[Tue Apr 16 15:05:40 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: bases in /var/www/vhosts/api/root/lib/datalog.php on line 148
+[Tue Apr 16 15:05:40 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:06:43 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:06:43 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 141
+[Tue Apr 16 15:06:43 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: bases in /var/www/vhosts/api/root/lib/datalog.php on line 148
+[Tue Apr 16 15:06:43 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:07:02 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 140
+[Tue Apr 16 15:07:02 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: can in /var/www/vhosts/api/root/lib/datalog.php on line 141
+[Tue Apr 16 15:07:02 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:07:14 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /var/www/vhosts/api/root/lib/datalog.php on line 139
+[Tue Apr 16 15:07:25 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:08:38 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:10:42 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:11:23 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:11:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:12:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:12:40 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:13:02 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:14:09 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:14:30 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:15:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:15:50 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:16:41 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined function user_role() in /var/www/vhosts/api/root/lib/datalog.php on line 104
+[Tue Apr 16 15:16:42 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:16:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:17:11 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /var/www/vhosts/api/root/lib/datalog.php on line 104
+[Tue Apr 16 15:17:12 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:17:22 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: bases in /var/www/vhosts/api/root/lib/datalog.php on line 128
+[Tue Apr 16 15:17:22 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:17:41 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: bases in /var/www/vhosts/api/root/lib/datalog.php on line 128
+[Tue Apr 16 15:17:41 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:18:08 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:18:47 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:19:23 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:19:44 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:20:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:21:05 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:23:11 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:23:20 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:23:49 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:23:54 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:24:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:28:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:29:40 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:30:21 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:30:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:30:49 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:31:31 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:31:48 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:31:55 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:31:56 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:32:00 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:36:49 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:40:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:40:11 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:41:20 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:42:00 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:42:39 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:43:06 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:43:06 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:43:14 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:43:14 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:45:04 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:45:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:45:05 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:45:05 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:45:14 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:45:14 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:45:14 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:45:14 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:45:53 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:45:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:45:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:45:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:45:54 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:45:54 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:45:54 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:45:54 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:47:31 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:47:31 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:47:31 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:47:31 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:47:32 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:47:32 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:47:32 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:47:32 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/status
+[Tue Apr 16 15:49:38 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:49:38 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:49:38 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:49:38 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:49:44 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:49:44 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:49:44 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:49:44 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:49:52 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:49:52 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:49:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:49:52 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:49:57 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:49:57 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:50:59 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/datalog (None could be negotiated).
+[Tue Apr 16 15:50:59 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:50:59 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:50:59 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:51:04 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:51:04 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:51:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:51:04 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:51:36 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:51:36 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:51:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:51:36 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:52:25 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:52:25 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:52:25 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:52:25 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:52:34 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:52:34 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:52:34 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:52:34 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:52:57 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:52:57 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:52:57 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:52:57 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:53:02 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:53:02 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:54:43 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/dl
+[Tue Apr 16 15:54:43 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:54:43 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:54:43 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:55:07 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/dl
+[Tue Apr 16 15:55:07 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:55:07 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:55:07 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:55:12 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:55:12 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:55:14 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:55:14 2013] [error] [client 186.85.77.21] Negotiation: discovered file(s) matching request: /var/www/vhosts/api/root/status (None could be negotiated).
+[Tue Apr 16 15:56:33 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/datalog.php' not found or unable to stat
+[Tue Apr 16 15:56:33 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:56:33 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:56:33 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:56:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/datalog
+[Tue Apr 16 15:56:36 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:56:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:56:36 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:56:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:56:36 2013] [error] [client 186.85.77.21] script '/var/www/vhosts/api/root/status.php' not found or unable to stat
+[Tue Apr 16 15:56:47 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:56:51 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:56:56 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:57:23 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:57:26 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:57:28 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:57:30 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:57:31 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 15:57:32 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:07:37 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '?', expecting ',' or ')' in /var/www/vhosts/api/root/apistatus.php on line 6
+[Tue Apr 16 16:07:51 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '?', expecting ',' or ')' in /var/www/vhosts/api/root/apistatus.php on line 6
+[Tue Apr 16 16:08:08 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: api in /var/www/vhosts/api/root/apistatus.php on line 17
+[Tue Apr 16 16:08:08 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to a member function response() on a non-object in /var/www/vhosts/api/root/apistatus.php on line 17
+[Tue Apr 16 16:08:29 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:08:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:08:46 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:08:54 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:09:01 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '?', expecting ',' or ')' in /var/www/vhosts/api/root/apistatus.php on line 6
+[Tue Apr 16 16:09:01 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:09:01 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '?', expecting ',' or ')' in /var/www/vhosts/api/root/apistatus.php on line 6
+[Tue Apr 16 16:09:16 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:09:25 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/apistatus.php on line 10
+[Tue Apr 16 16:09:41 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:10:05 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:10:17 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/apistatus.php on line 11
+[Tue Apr 16 16:10:24 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:10:37 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 14
+[Tue Apr 16 16:10:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:10:37 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 14
+[Tue Apr 16 16:10:53 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 14
+[Tue Apr 16 16:10:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:10:53 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 14
+[Tue Apr 16 16:11:27 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 15
+[Tue Apr 16 16:11:27 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:11:27 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 15
+[Tue Apr 16 16:15:51 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 15
+[Tue Apr 16 16:15:51 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:15:51 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 15
+[Tue Apr 16 16:16:25 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected 're' (T_STRING), expecting ')' in /var/www/vhosts/api/root/apistatus.php on line 10
+[Tue Apr 16 16:16:39 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 23
+[Tue Apr 16 16:16:39 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:16:39 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: status in /var/www/vhosts/api/root/apistatus.php on line 23
+[Tue Apr 16 16:16:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:17:14 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:17:35 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:25:01 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /var/www/vhosts/api/root/apistatus.php on line 8
+[Tue Apr 16 16:25:22 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:25:34 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:25:40 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:26:52 2013] [error] [client 186.85.77.21] PHP Warning:  require_once(lib/api.php): failed to open stream: No such file or directory in /var/www/vhosts/api/root/apistatus.php on line 2
+[Tue Apr 16 16:26:52 2013] [error] [client 186.85.77.21] PHP Fatal error:  require_once(): Failed opening required 'lib/api.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/vhosts/api/root/apistatus.php on line 2
+[Tue Apr 16 16:27:25 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:27:32 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:27:39 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:27:49 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:27:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:27:54 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:34:46 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$_SERVER' (T_VARIABLE) in /var/www/vhosts/api/root/lib/datalog.php on line 18
+[Tue Apr 16 16:34:57 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected '$_SERVER' (T_VARIABLE) in /var/www/vhosts/api/root/lib/datalog.php on line 18
+[Tue Apr 16 16:35:10 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:35:27 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:35:33 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined method datalog::respnse() in /var/www/vhosts/api/root/lib/datalog.php on line 20
+[Tue Apr 16 16:35:33 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:35:39 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:36:14 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:36:28 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:36:55 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:37:13 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:37:34 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:38:18 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:38:46 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:39:02 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:39:12 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:39:21 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:39:31 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:39:35 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:39:35 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:39:44 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:39:50 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:39:56 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:40:04 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:40:12 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:40:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:40:23 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:40:30 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:40:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:40:42 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:40:53 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:41:00 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:42:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:43:42 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:45:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:45:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:48:10 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:48:18 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:49:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:50:55 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: user in /var/www/vhosts/api/root/lib/datalog.php on line 163
+[Tue Apr 16 16:50:55 2013] [error] [client 186.85.77.21] PHP Fatal error:  Cannot access empty property in /var/www/vhosts/api/root/lib/datalog.php on line 163
+[Tue Apr 16 16:51:09 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:51:50 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined method datalog::go_keepalive() in /var/www/vhosts/api/root/lib/datalog.php on line 163
+[Tue Apr 16 16:52:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:52:31 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined method datalog::go_keepalive() in /var/www/vhosts/api/root/lib/datalog.php on line 163
+[Tue Apr 16 16:52:39 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:53:30 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:53:45 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined method datalog::go_keepalive() in /var/www/vhosts/api/root/lib/datalog.php on line 163
+[Tue Apr 16 16:53:45 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:53:59 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:55:16 2013] [error] [client 186.85.77.21] PHP Warning:  json_encode(): recursion detected in /var/www/vhosts/api/root/lib/api.php on line 41
+[Tue Apr 16 16:55:16 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:56:19 2013] [error] [client 186.85.77.21] PHP Warning:  json_encode(): recursion detected in /var/www/vhosts/api/root/lib/api.php on line 41
+[Tue Apr 16 16:56:20 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 16:59:15 2013] [error] [client 186.85.77.21] PHP Warning:  json_encode(): recursion detected in /var/www/vhosts/api/root/lib/api.php on line 41
+[Tue Apr 16 16:59:15 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:02:02 2013] [error] [client 186.85.77.21] PHP Warning:  json_encode(): recursion detected in /var/www/vhosts/api/root/lib/api.php on line 41
+[Tue Apr 16 17:02:02 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:02:23 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:04:18 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:06:34 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:07:30 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:09:44 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:09:59 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:09:59 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:10:00 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:11:15 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:11:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:12:32 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:12:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:12:58 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:13:08 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:13:08 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:13:20 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:13:25 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:13:41 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:14:29 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ')' in /var/www/vhosts/api/root/lib/datalog.php on line 148
+[Tue Apr 16 17:14:29 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:14:41 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:14:56 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:15:11 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 17:15:17 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:08:57 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/lib/datalog.php on line 199
+[Tue Apr 16 18:08:57 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:09:21 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:09:21 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:09:29 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:09:36 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/lib/datalog.php on line 199
+[Tue Apr 16 18:09:36 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:10:08 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:10:15 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ',' in /var/www/vhosts/api/root/lib/datalog.php on line 243
+[Tue Apr 16 18:10:15 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:10:25 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:10:33 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined method datalog::checkdates() in /var/www/vhosts/api/root/lib/datalog.php on line 236
+[Tue Apr 16 18:10:33 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:10:39 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined method datalog::checkdates() in /var/www/vhosts/api/root/lib/datalog.php on line 236
+[Tue Apr 16 18:10:39 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:10:43 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined method datalog::checkdates() in /var/www/vhosts/api/root/lib/datalog.php on line 236
+[Tue Apr 16 18:10:43 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:10:54 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ',' in /var/www/vhosts/api/root/lib/datalog.php on line 243
+[Tue Apr 16 18:10:54 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:11:10 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:11:16 2013] [error] [client 186.85.77.21] PHP Fatal error:  Call to undefined method datalog::checkdates() in /var/www/vhosts/api/root/lib/datalog.php on line 236
+[Tue Apr 16 18:11:16 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:11:21 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:11:25 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:11:25 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:11:30 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:11:30 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:11:30 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:11:34 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:11:34 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:11:34 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:11:38 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:11:38 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:11:38 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:11:45 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ',' in /var/www/vhosts/api/root/lib/datalog.php on line 243
+[Tue Apr 16 18:11:45 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:12:03 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/lib/datalog.php on line 199
+[Tue Apr 16 18:12:03 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:12:08 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:12:08 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:12:08 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:12:34 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/lib/datalog.php on line 199
+[Tue Apr 16 18:12:34 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:12:53 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/lib/datalog.php on line 199
+[Tue Apr 16 18:12:54 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:13:12 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:13:12 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:13:12 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:13:32 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:13:32 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:13:33 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:13:52 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:13:52 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:13:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:13:57 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:13:57 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:13:57 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:14:08 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:14:08 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:14:08 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:14:36 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:14:36 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:14:37 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:14:44 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:14:44 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:14:44 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:14:51 2013] [error] [client 186.85.77.21] PHP Parse error:  syntax error, unexpected ';' in /var/www/vhosts/api/root/lib/datalog.php on line 199
+[Tue Apr 16 18:14:51 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:14:58 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:14:58 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:14:58 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:15:52 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:15:52 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:15:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:16:15 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 238
+[Tue Apr 16 18:16:15 2013] [error] [client 186.85.77.21] PHP Notice:  Undefined variable: tp in /var/www/vhosts/api/root/lib/datalog.php on line 239
+[Tue Apr 16 18:16:15 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:16:22 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:16:42 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:16:56 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:17:45 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:17:52 2013] [error] [client 186.85.77.21] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Tue Apr 16 18:32:34 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:33:21 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:33:29 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:34:32 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:34:39 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:34:46 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:34:55 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:35:01 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:36:47 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:38:15 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:38:56 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:39:05 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:39:16 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:39:28 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:39:56 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:40:05 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:41:21 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:41:27 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:42:36 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:43:28 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:44:38 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:46:03 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:56:23 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:57:15 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:57:26 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:57:42 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:57:57 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:58:02 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:58:09 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 18:58:29 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 19:01:13 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 19:02:19 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 19:04:07 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Tue Apr 16 19:04:53 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Mon Aug 26 10:27:00 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 10:27:17 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 10:27:40 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12, referer: http://test.api.orugaamarilla.com/
+[Mon Aug 26 11:12:11 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 11:12:22 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 11:12:49 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 11:13:11 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 11:13:57 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 11:17:23 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 11:17:31 2013] [error] [client 186.85.91.124] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Aug 26 11:17:31 2013] [error] [client 186.85.91.124] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Aug 26 11:18:28 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 11:20:58 2013] [error] [client 186.85.91.124] PHP Fatal error:  Class 'mysqli' not found in /var/www/vhosts/api/root/lib/db.php on line 12
+[Mon Aug 26 11:24:31 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'lusedo'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178
+[Mon Aug 26 11:24:31 2013] [error] [client 186.85.91.124] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Mon Aug 26 11:24:31 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 3
+[Mon Aug 26 11:24:31 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::query(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 279
+[Mon Aug 26 11:24:31 2013] [error] [client 186.85.91.124] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /var/www/vhosts/api/root/lib/db.php on line 213
+[Mon Aug 26 11:42:17 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'lusedo'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178
+[Mon Aug 26 11:42:17 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 3
+[Mon Aug 26 11:42:17 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::query(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 279
+[Mon Aug 26 11:42:17 2013] [error] [client 186.85.91.124] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /var/www/vhosts/api/root/lib/db.php on line 213
+[Mon Aug 26 11:45:50 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'lusedo'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178
+[Mon Aug 26 11:45:50 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 3
+[Mon Aug 26 11:45:50 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::query(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 279
+[Mon Aug 26 11:45:50 2013] [error] [client 186.85.91.124] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /var/www/vhosts/api/root/lib/db.php on line 213
+[Mon Aug 26 11:45:57 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'lusedo'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178
+[Mon Aug 26 11:45:57 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 3
+[Mon Aug 26 11:45:57 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::query(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 279
+[Mon Aug 26 11:45:57 2013] [error] [client 186.85.91.124] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /var/www/vhosts/api/root/lib/db.php on line 213
+[Mon Aug 26 11:45:58 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'lusedo'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178
+[Mon Aug 26 11:45:58 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 3
+[Mon Aug 26 11:45:58 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::query(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 279
+[Mon Aug 26 11:45:58 2013] [error] [client 186.85.91.124] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /var/www/vhosts/api/root/lib/db.php on line 213
+[Mon Aug 26 11:45:59 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'lusedo'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178
+[Mon Aug 26 11:45:59 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 3
+[Mon Aug 26 11:45:59 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::query(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 279
+[Mon Aug 26 11:45:59 2013] [error] [client 186.85.91.124] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /var/www/vhosts/api/root/lib/db.php on line 213
+[Mon Aug 26 11:50:40 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'lusedo'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178
+[Mon Aug 26 11:50:40 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 3
+[Mon Aug 26 11:50:40 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::query(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 279
+[Mon Aug 26 11:50:40 2013] [error] [client 186.85.91.124] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /var/www/vhosts/api/root/lib/db.php on line 213
+[Mon Aug 26 11:50:46 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'lusedo'@'localhost' (using password: YES) in /var/www/vhosts/api/root/lib/db.php on line 178
+[Mon Aug 26 11:50:46 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 3
+[Mon Aug 26 11:50:46 2013] [error] [client 186.85.91.124] PHP Warning:  mysqli::query(): Couldn't fetch db in /var/www/vhosts/api/root/lib/db.php on line 279
+[Mon Aug 26 11:50:46 2013] [error] [client 186.85.91.124] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /var/www/vhosts/api/root/lib/db.php on line 213
+[Mon Aug 26 11:53:20 2013] [error] [client 186.85.91.124] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/api/root/lib/datalog.php on line 112
+[Mon Sep 02 10:37:06 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Mon Sep 02 10:37:06 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined index:  in /var/www/vhosts/api/root/lib/datalog.php on line 171
+[Mon Sep 02 10:37:06 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 10:37:06 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 10:37:33 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined index:  in /var/www/vhosts/api/root/lib/datalog.php on line 171
+[Mon Sep 02 10:37:35 2013] [error] [client 200.3.154.160] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Mon Sep 02 10:37:35 2013] [error] [client 200.3.154.160] PHP Notice:  Undefined index:  in /var/www/vhosts/api/root/lib/datalog.php on line 171
+[Mon Sep 02 10:37:36 2013] [error] [client 8.28.16.254] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Mon Sep 02 10:37:36 2013] [error] [client 8.28.16.254] PHP Notice:  Undefined index:  in /var/www/vhosts/api/root/lib/datalog.php on line 171
+[Mon Sep 02 10:37:39 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined index:  in /var/www/vhosts/api/root/lib/datalog.php on line 171
+[Mon Sep 02 10:37:58 2013] [error] [client 200.3.154.160] PHP Notice:  Undefined index:  in /var/www/vhosts/api/root/lib/datalog.php on line 171
+[Mon Sep 02 12:08:21 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Mon Sep 02 12:08:21 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined index:  in /var/www/vhosts/api/root/lib/datalog.php on line 171
+[Mon Sep 02 12:08:21 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 12:08:21 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 15:52:59 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 15:52:59 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 16:24:35 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 16:24:35 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 16:45:28 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 16:45:28 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 21:29:41 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 02 21:29:41 2013] [error] [client 190.146.246.177] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 09 09:56:25 2013] [error] [client 186.85.91.124] File does not exist: /var/www/vhosts/api/root/favicon.ico
+[Mon Sep 09 09:56:35 2013] [error] [client 186.85.91.124] PHP Notice:  Undefined index: name in /var/www/vhosts/api/root/lib/datalog.php on line 30
+[Mon Sep 09 09:56:35 2013] [error] [client 186.85.91.124] PHP Notice:  Undefined index:  in /var/www/vhosts/api/root/lib/datalog.php on line 171
