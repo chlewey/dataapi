@@ -11,7 +11,7 @@ require_once "lib/db.php";
 class datalog extends api {
 	function __construct() {
 		api::__construct('datalog','0.41');
-		$this->db = new db('localhost','lusedo','lu53d0','orugadata');
+		$this->db = require_once 'config/db.php';
 		$l = isset($_SERVER['REDIRECT_URL'])? $_SERVER['REDIRECT_URL']: (
 			isset($_SERVER['REQUEST_URI'])? $_SERVER['REQUEST_URI']: '');
 		if(preg_match('{/?datalog(?:/(\w+)(?:/(\d+))?(?:/(\w+))?)?\b(.*)}',$l,$m)) {
@@ -26,9 +26,12 @@ class datalog extends api {
 
 	function set_user() {
 		$this->user = isset($_SESSION['user'])? $_SESSION['user']: array();
-		if(time()-$this->since() > 3600)
-			$this->user = array('name'=>null,'former'=>$this->user['name'],'authenticated'=>false);
-		else
+		if(time()-$this->since() > 3600) {
+			if(isset($this->user['name']))
+				$this->user = array('name'=>null,'former'=>$this->user['name'],'authenticated'=>false);
+			else
+				$this->user = array('name'=>null,'authenticated'=>false);
+		} else
 			$this->user['since'] = date('Y-m-d H:i');
 		$this->auth_user_php();
 		$this->auth_user_request();
@@ -251,6 +254,7 @@ class datalog extends api {
 			$this->response('user',$this->user);
 			$this->response('queries',db::$log);
 			$this->response('request',$_REQUEST);
+			$this->response('server',$_SERVER);
 		}
 		api::close();
 	}
