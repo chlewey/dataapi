@@ -1,0 +1,7 @@
+Some configuration files should be created, including:
+
+db.php
+	with the following information:
+	<?php
+	return new db('<mysql-host>','<mysql-user>','<mysql-password>','<mysql-database>');
+	?>
