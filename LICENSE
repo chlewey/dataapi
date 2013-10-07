@@ -1,0 +1,53 @@
+Copyleft 2013 Carlos Thompson
+
+This is still not an standard license.
+
+DISCLAIMER
+This software is distributed AS IS.  No responsibility may be inferred to the author
+for any damage produced by this software unless a support contract has been subscribed
+and the software is used as per the support contract.
+
+PERMISIONS
+The user may use this software for their own purposes, as final user, or to modify and
+redistribute this piece of software for both commercial and non-commercial purposes, as
+longer as no copyright or copyleft note is removed or masked.
+
+OBLIGATIONS
+Redistribution of unmodified versions of this software MUST keep this license.
+
+Modifications that can be regarded as bug-fixing SHOULD be sent back to the Author and
+if sent the bug-fix MUST be free.  The modified version MAY be redistributed with this
+or any free license.  When the bug fix is incorporated to the main branch, it will keep
+this original license.
+
+Modifications that can be regarded as minor feature enhancements, SHOULD be sent back
+to the Author for inclusion in future versions.  The modified version MAY be redistributed
+with this or any free license.  If the modification is incorporated to the main branch,
+it will keep this original license.
+
+A modification is regarded as minor feature enhancement if the overall functionality of
+the package is still recognisable.
+
+A modification can be regarded as plugin if the original code is not modified.  Plugins
+can be licensed as pleased.  A version that is enhanced with plugins can be distributed
+under the license the version compiler wants as longer as the original (or fixed or
+monirly enhanced) code keeps this or any other free license.
+
+A modification that is regarded as major only requires that the original Author is
+credited.
+
+If you make money from this software and plan to keep using it you are encourage to do
+at least any of the following actions:
+ * wire me 1% (or more) of your profit.
+ * buy me a soft-drink or a lunch.
+ * send me a (non-electronic) postcard.
+ * hire me.
+ * tell me your success story.
+ 
+RELICENSING
+If this license is changed in any future for a more restrictive license, any version
+of the software that was acquire before the relicensing can be used, distributed or
+modified according to this original license.
+
+If this license is changed in any future for a less restrictive license, that license
+will also apply to past versions of the package.
