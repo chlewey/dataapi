@@ -5,3 +5,9 @@ db.php
 	<?php
 	return new db('<mysql-host>','<mysql-user>','<mysql-password>','<mysql-database>');
 	?>
+
+image.php
+	with the following information:
+	<?php
+	$image->setbases('<basedir>','<baseurl>');
+	?>
