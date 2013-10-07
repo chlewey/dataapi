@@ -24,25 +24,27 @@ All JSON responses from DataAPI will include the following fields:
   
 The Data API will receive the following type of messages:
 
-	1. Keep-alive
-	2. Request
-	3. Update
-	4. Greeting
-	5. Modification
-	6. Creation
-	7. Destruction
+ 1. Keep-alive
+ 2. Request
+ 3. Update
+ 4. Greeting
+ 5. Modification
+ 6. Creation
+ 7. Destruction
 
 Keep-alive and Requests are GET messages, Update is a POST message, Greeting,
 Modification and Creation are PUT messages, and Destruction is a DELETE
 message.
 
 The general format of an API request is:
-	<VERB> <dataapi URI>[/<resource>[/<request>[.<format>]]]
-where <VERB> is GET, POST, PUT or DELETE; <dataapi URI> is the resource
-locator of this API, <resource> is the resource being asked about, <request>
+
+    <VERB> <dataapi URI>[/<resource>[/<request>[.<format>]]]
+
+where `<VERB>` is GET, POST, PUT or DELETE; `<dataapi URI>` is the resource
+locator of this API, `<resource>` is the resource being asked about, `<request>`
 is any further action that is requested, and <format> is the response format.
 
-If <format> is blank or "cgi" the response will be in JSON format.  So far
+If `<format>` is blank or `cgi` the response will be in JSON format.  So far
 no other format is defined.
 
 The API will receive an authentication user/password pair per session, either
