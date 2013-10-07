@@ -184,15 +184,15 @@ The specifics for each kind of message are:
 	A modification is a PUT request in which the resource is existent, and the
 	body is a JSON stream with the following compulsory fields:
 	
-	 a) name,	full UTF-8 name of the resource
-	 b) group,	ASCII name of the group
-	 c) modify,	set to boolean True
+	 1. name,	full UTF-8 name of the resource
+	 2. group,	ASCII name of the group
+	 3. modify,	set to boolean True
 	
 	And the following optional fields
 	
-	 d) user,	a username of a user with writing privileges to the resource
-	 e) upasswd,	the password of that user
-	 f) passwd,	a UTF-8 string with the resource password
+	 4. user,	a username of a user with writing privileges to the resource
+	 5. upasswd,	the password of that user
+	 6. passwd,	a UTF-8 string with the resource password
 	
 	The answer should be:
 	
@@ -212,13 +212,16 @@ The specifics for each kind of message are:
  
 	A creation is a PUT request in which the resource is not existent and the
 	body is a JSON stream with the following compulsory fields:
-	 a) name,	full UTF-8 name of the resource
-	 b) group,	ASCII name of the group
-	 c) passwd,	a UTF-8 string with the resource password.
+	
+	 1. name,	full UTF-8 name of the resource
+	 2. group,	ASCII name of the group
+	 3. passwd,	a UTF-8 string with the resource password.
+	 
 	and the following optional fields
-	 d) user,	a username of a user with writing privileges to the resource
-	 e) upasswd,	the password of that user
-	 f) modify,	set to boolean True
+	
+	 4. user,	a username of a user with writing privileges to the resource
+	 5. upasswd,	the password of that user
+	 6. modify,	set to boolean True
 
 	(Note that if HTTP or "get" authentication is provided for the same name
 	 as the resource, the user/upasswd are compulsory.)
