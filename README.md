@@ -84,47 +84,48 @@ The specifics for each kind of message are:
 	It is also a request when no resource is provided.
 	
 	Request verbs include
-	 *	list	(implicit when resource is void or a group)
-	 *	status	(implicit when no verb is provided)
-	 *	summary
-	 *	feed
+	 1.	list	(implicit when resource is void or a group)
+	 2.	status	(implicit when no verb is provided)
+	 3.	summary
+	 4.	feed
 		
 	The resource might be either void, a group, or a base station.
 	
-	List request:
-	>	In a list request the data is a list containing pairs.  First pair
-	>	field is the name of a resource, and the second pair field is a
-	>	structure indicating full name, avatar code, and group of each
-	>	resource.
-	>
-	>	The list will provide only resources to which the authentication user
-	>	has reading access to probably filtered by group or base station.
+	 1.	List request:
+	 
+		In a list request the data is a list containing pairs.  First pair
+		field is the name of a resource, and the second pair field is a
+		structure indicating full name, avatar code, and group of each
+		resource.
 	
-	Status request:
-	>	For a status request the resource must exist and must be a final
-	>	resource (as different from a group).
-	>	
-	>	The response data in a status request provides further information for
-	>	the resource, including registered IP address.
+		The list will provide only resources to which the authentication user
+		has reading access to probably filtered by group or base station.
+	
+	 2.	Status request:
+		For a status request the resource must exist and must be a final
+		resource (as different from a group).
 		
-	Summary request:
-	>	For a summary request the resource must exist and must be a final
-	>	resource (as different from a group).
-	>	
-	>	Along with basic information, the summary request will provide a
-	>	summary of the last status.
-	>	
-	>	Optional GET fields might include a range for the summary.
+		The response data in a status request provides further information for
+		the resource, including registered IP address.
+		
+	 3.	Summary request:
+		For a summary request the resource must exist and must be a final
+		resource (as different from a group).
+		
+		Along with basic information, the summary request will provide a
+		summary of the last status.
+		
+		Optional GET fields might include a range for the summary.
 	
-	Feed request:
-	>	For a feed request the resource must exist, and can be either a group
-	>	or a final resource.
-	>	
-	>	Along with basic information, the feed request will provide a list of
-	>	the last reported status.
-	>	
-	>	Optional GET fields might include a range for the feed or an specific
-	>	instrument or meter.
+	 4.	Feed request:
+		For a feed request the resource must exist, and can be either a group
+		or a final resource.
+		
+		Along with basic information, the feed request will provide a list of
+		the last reported status.
+		
+		Optional GET fields might include a range for the feed or an specific
+		instrument or meter.
 	
 	A successful general request will typically be answered by a 200 status,
 	but might be answered by a 304 if a last-modified date is provided in the
