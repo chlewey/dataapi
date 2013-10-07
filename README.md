@@ -48,21 +48,23 @@ If `<format>` is blank or `cgi` the response will be in JSON format.  So far
 no other format is defined.
 
 The API will receive an authentication user/password pair per session, either
-as an HTTP authentication, or as GET or POST fields "user" and "password", or
-as a "user" and "upasswd" fields in a data-structure body.
+as an HTTP authentication, or as GET or POST fields `user` and `password`, or
+as a `user` and `upasswd` fields in a data-structure body.
 
 The general structure of the response codes will be:
-  200	Everything is okay, request is fullfilled in the response
-  201	Request accepted and requested modifications commited
-  202	Request accepted and requested modifications are not commited (yet).
-  304	No modification from data-lined request.
-  401	authentication failed (for any reasson)
-  403	Request not accepted or cannot be committed (for any reason)
-  404	Resource does not exist
+
+ * 200	Everything is okay, request is fulfilled in the response
+ * 201	Request accepted and requested modifications committed
+ * 202	Request accepted and requested modifications are not committed (yet).
+ * 202	Destroy request accepted and fulfilled.
+ * 304	No modification from data-lined request.
+ * 401	authentication failed (for any reason)
+ * 403	Request not accepted or cannot be committed (for any reason)
+ * 404	Resource does not exist
   
 The specifics for each kind of message are:
 
- 1. Keep-alive
+ 1. **Keep-alive**
 	A keep-alive is a GET request where no request verb is provided and
 	authentication user is equal to requested resource.
 	
@@ -73,54 +75,54 @@ The specifics for each kind of message are:
 	An unsuccessful keep-alive will return 404 (if resource does not exist
 	regardless of authentication) or 401 if authentication fails.
 
- 2. Request
+ 2. **Request**
 	A general request is a GET request where either a request verb is provided
 	or the user is not equal to the requested resource.
 	
 	It is also a request when no resource is provided.
 	
 	Request verbs include
-		list	(implicit when resource is void or a group)
-		status	(implicit when no verb is provided)
-		summary
-		feed
+	 *	list	(implicit when resource is void or a group)
+	 *	status	(implicit when no verb is provided)
+	 *	summary
+	 *	feed
 		
 	The resource might be either void, a group, or a base station.
 	
 	List request:
-		In a list request the data is a list containing pairs.  First pair
-		field is the name of a resource, and the second pair field is a
-		structure indicating full name, avatar code, and group of each
-		resource.
-	
-		The list will provide only resources to which the authentication user
-		has reading access to probably filtered by group or base station.
+	>	In a list request the data is a list containing pairs.  First pair
+	>	field is the name of a resource, and the second pair field is a
+	>	structure indicating full name, avatar code, and group of each
+	>	resource.
+	>
+	>	The list will provide only resources to which the authentication user
+	>	has reading access to probably filtered by group or base station.
 	
 	Status request:
-		For a status request the resource must exist and must be a final
-		resource (as different from a group).
-		
-		The response data in a status request provides further information for
-		the resource, including registered IP address.
+	>	For a status request the resource must exist and must be a final
+	>	resource (as different from a group).
+	>	
+	>	The response data in a status request provides further information for
+	>	the resource, including registered IP address.
 		
 	Summary request:
-		For a summary request the resource must exist and must be a final
-		resource (as different from a group).
-		
-		Along with basic information, the summary request will provide a
-		summary of the last status.
-		
-		Optional GET fields might include a range for the summary.
+	>	For a summary request the resource must exist and must be a final
+	>	resource (as different from a group).
+	>	
+	>	Along with basic information, the summary request will provide a
+	>	summary of the last status.
+	>	
+	>	Optional GET fields might include a range for the summary.
 	
 	Feed request:
-		For a feed request the resource must exist, and can be either a group
-		or a final resource.
-		
-		Along with basic information, the feed request will provide a list of
-		the last reported status.
-		
-		Optional GET fields might include a range for the feed or an specific
-		instrument or meter.
+	>	For a feed request the resource must exist, and can be either a group
+	>	or a final resource.
+	>	
+	>	Along with basic information, the feed request will provide a list of
+	>	the last reported status.
+	>	
+	>	Optional GET fields might include a range for the feed or an specific
+	>	instrument or meter.
 	
 	A successful general request will typically be answered by a 200 status,
 	but might be answered by a 304 if a last-modified date is provided in the
