@@ -3,6 +3,8 @@ RewriteEngine	On
 RewriteRule	^/?(lib|config|Rewrites)\b	-	[R=403,NC,L]
 RewriteCond	%{REQUEST_FILENAME}	-f
 RewriteRule	.?	-	[L]
+RewriteRule	^/?avatar\b	apiavatar.php	[PT,QSA]
+RewriteRule	^/?banner\b	apibanner.php	[PT,QSA]
 RewriteRule	^/?datalog\b	apidatalog.php	[PT,QSA]
 RewriteRule	^/?status\b	apistatus.php	[PT,QSA]
 RewriteRule	^/?$	/status/200	[PT,QSA]
@@ -11,4 +13,3 @@ ErrorDocument	401	/status/401
 ErrorDocument	403	/status/403
 ErrorDocument	404	/status/404
 ErrorDocument	500	/status/500
- 
