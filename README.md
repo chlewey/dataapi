@@ -65,6 +65,7 @@ The general structure of the response codes will be:
 The specifics for each kind of message are:
 
  1. **Keep-alive**
+ 
 	A keep-alive is a GET request where no request verb is provided and
 	authentication user is equal to requested resource.
 	
@@ -76,6 +77,7 @@ The specifics for each kind of message are:
 	regardless of authentication) or 401 if authentication fails.
 
  2. **Request**
+ 
 	A general request is a GET request where either a request verb is provided
 	or the user is not equal to the requested resource.
 	
@@ -135,7 +137,8 @@ The specifics for each kind of message are:
 	A 401 response is given if authentication fails, and a 403 if the
 	authenticating user has no reading access to the group or final resource.
 
- 3. Update
+ 3. **Update**
+
 	An update request is a POST request aimed to record new status updates to
 	a resource.
 	
@@ -151,15 +154,17 @@ The specifics for each kind of message are:
 	privileges to the resource (or the update will not be committed for any
 	other reason).
 
- 4. Greeting
+ 4. **Greeting**
+
 	A greeting is a PUT request in which the resource and the authenticating
 	user are the same.  The body will be a JSON stream with the following
 	fields:
+	
 	 a) name,	full UTF-8 name of the resource
 	 b) group,	ASCII name of the group
 	 c) modify,	set to boolean False
 	
-	Response:
+	**Response:**
 	If the resource does not exist, a 404 response is provided regardless of
 	authentication.
 	
@@ -174,18 +179,23 @@ The specifics for each kind of message are:
 	keep-alive but an action field will be added to the response with the
 	value "Modified" and a data field equal to a status request.
 
- 5. Modification
+ 5. **Modification**
+
 	A modification is a PUT request in which the resource is existent, and the
 	body is a JSON stream with the following compulsory fields:
+	
 	 a) name,	full UTF-8 name of the resource
 	 b) group,	ASCII name of the group
 	 c) modify,	set to boolean True
+	
 	And the following optional fields
+	
 	 d) user,	a username of a user with writing privileges to the resource
 	 e) upasswd,	the password of that user
 	 f) passwd,	a UTF-8 string with the resource password
 	
 	The answer should be:
+	
 	401 if authentication fails (if user/upasswd provided, this is the one to
 	authenticate, otherwise the user/passwd "get" fields, or the HTTP
 	authentication fields.
@@ -198,7 +208,8 @@ The specifics for each kind of message are:
 	202 success modification request, changes are not (yet) committed (either
 	because changes are not necesary or they are scheduled).
 	
- 6. Creation
+ 6. **Creation**
+ 
 	A creation is a PUT request in which the resource is not existent and the
 	body is a JSON stream with the following compulsory fields:
 	 a) name,	full UTF-8 name of the resource
@@ -224,10 +235,12 @@ The specifics for each kind of message are:
 	
 	202 success creation request, resource has not been created yet.
 
- 7. Destruction
+ 7. **Destruction**
+ 
 	A destruction is a DELETE request.
 	
 	Responses are:
+	
 	404	if resource does not exist, regardless of authentication.
 	
 	401 authentication fails.
@@ -241,13 +254,14 @@ The specifics for each kind of message are:
 	204 destruction accepted and commited.
 	
 Incomplete or malformed requests:
-POST/PUT/DELETE <dataapi URI>	404
-POST/PUT/DELETE <dataapi URI>/	404
-POST/PUT/DELETE <dataapi URI>/<resource>/<anything else>	404
-GET/POST/DELETE <dataapi URI>/<non-existent-resource>	404
-GET/POST/DELETE <dataapi URI>/<non-existent-resource>/	404
-GET <dataapi URI>/<resource>/<non-existent-verb>	404
-GET <dataapi URI>/<resource>/<verb>/<anything else>	404
+
+    POST/PUT/DELETE <dataapi URI>	404
+    POST/PUT/DELETE <dataapi URI>/	404
+    POST/PUT/DELETE <dataapi URI>/<resource>/<anything else>	404
+    GET/POST/DELETE <dataapi URI>/<non-existent-resource>	404
+    GET/POST/DELETE <dataapi URI>/<non-existent-resource>/	404
+    GET <dataapi URI>/<resource>/<non-existent-verb>	404
+    GET <dataapi URI>/<resource>/<verb>/<anything else>	404
 
 Authenticating data should be processed after request analysis. Failed
 authentication is answered by 401.
