@@ -1,27 +1,29 @@
-dataapi
-=======
+Data API
+========
 
 Data API is an API server for keeping track of automated data,
-it can be used by several resources including Data Transmit
- http://github.com/chlewey/datatransmit
+it can be used by several resources including
+[Data Transmit](/chlewey/datatransmit )
 
 A DataAPI server is an HTTP server, which normally respond in JSON.  It will
 originally be written in PHP but might be ported to another language in the
 future.
 
 All JSON responses from DataAPI will include the following fields:
-  api	the specific name of this DataAPI (ASCII string)
-  version	the version of the DataAPI (ASCII string with dot separated
+
+ * `api`	the specific name of this DataAPI (ASCII string)
+ * `version`	the version of the DataAPI (ASCII string with dot separated
 			decimal numbers)
-  status	the HTTP status (integer), should be equal to the actual
+ * `status`	the HTTP status (integer), should be equal to the actual
 			HTTP status.
-  message	an accompanying message (human readable UTF-8 string) explaining
+ * `message`	an accompanying message (human readable UTF-8 string) explaining
 			the status.
-  action	optional field, a data structure commanding to make any further
+ * `action`	optional field, a data structure commanding to make any further
 			action such as sending a particular update.
-  data		optional field, a data structure responding the request
+ * `data`		optional field, a data structure responding the request
   
 The Data API will receive the following type of messages:
+
 	1. Keep-alive
 	2. Request
 	3. Update
