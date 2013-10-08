@@ -9,18 +9,506 @@ A DataAPI server is an HTTP server, which normally respond in JSON.  It will
 originally be written in PHP but might be ported to another language in the
 future.
 
+This API is a colection of individual APIs.
+
+So far four APIs are bundled:
+ 1. `status` For reporting HTTP statuses
+ 1. `datalog` For the storage of updates
+ 1. `avatar` For retrieving avatar information of elements in the db
+	and displaying avatars
+ 1. `banner` For retrieving banner information of elements in the db
+	and displaying user banners
+
 All JSON responses from DataAPI will include the following fields:
 
- * `api`	the specific name of this DataAPI (ASCII string)
- * `version`	the version of the DataAPI (ASCII string with dot separated
-			decimal numbers)
+ * `api`	the specific API name (ASCII string)
+ * `version`	the version of the DataAPI (ASCII string with dot
+		separated decimal numbers)
  * `status`	the HTTP status (integer), should be equal to the actual
-			HTTP status.
- * `message`	an accompanying message (human readable UTF-8 string) explaining
-			the status.
- * `action`	optional field, a data structure commanding to make any further
-			action such as sending a particular update.
- * `data`		optional field, a data structure responding the request
+		HTTP status. (might be ommited in successful requests)
+ * `title`	The standard title of the HTTP status (ASCII string).
+ * `message`	an accompanying message (human readable UTF-8 string)
+		explaining the status.
+ * `action`	optional field, a data structure commanding to make any
+		further action such as sending a particular update.
+ * `data`	optional field, a data structure responding the request.
+
+Status API
+----------
+
+**Usage:**
+
+    GET <Server URL>/status/<###>
+
+Where `<Server URL>` is the URL of the Server.  This is irrelevant to the API.
+The combination `<Server URL>/status` can be referred as `<Status API URI>`.
+
+The `<###>` is the three digits HTTP status number.
+
+This API might not respond all possible HTTP status codes, and so far
+only the status `200`, `201`, `401`, `403`, `404` and `500` are coded.
+
+This API is not designed to work with any other different HTTP verb (method)
+however it does not verify.  If the server allows a method it will be
+responded as a GET.
+
+**Response**
+
+For all status, except the redirection status, the HTTP response will
+match the `<###>` status.  For the `<3##>` redirection statuses, a 200
+HTTP response is sent.
+
+The responding message is a JSON stream with
+the fields `api`, `version`, `status` and `title`.
+
+
+Datalog API
+-----------
+
+**Usage**
+
+    <METHOD> <Server URL>/datalog/<Aditional Info>
+
+Where `<Server URL>` is the URL of the Server.  This is irrelevant to the API.
+The combination `<Server URL>/datalog` can be referred as `<Datalog API URI>`.
+
+Several HTTP verbs (methods) are recognized, and `<METHOD>` might be
+either `GET`, `PUT`, `POST` and `DELETE`.
+
+The `<Aditional Info>` usually consist of a `<element>` name.
+The `<element>` is an ASCII all-lowercase word that uniquely identify
+a data cointainer in the datalog.
+
+The Datalog API has three type of queries: auto-queries, user queries,
+and administrative queries.
+
+An **auto-query** is a query performed by an element on its own data.
+The auto-queries include:
+ 1.	A **greeting** query
+ 2. A **self-modification** query
+ 2.	A **self-creation** query
+ 3. A **keep-alive** query
+ 4. An **update** query
+ 
+Most of these queries are handled by the [Data Transmit](/chlewey/datatransmit) program.
+
+All successful response to an autoquery might include an `action` field.
+This field commands the [Data Transmit](/chlewey/datatransmit) program
+to perform an aditional query such as sending a **self-modification**
+query or an **update** for older data.
+
+A **user query** is a query that request for storaged data.
+These user queries are always safe queries that do not modify the database
+and are always performed by the `GET` method.
+
+
+User queries include:
+ 1.	**List**ing queries (queries that list the elments that are visible by a user)
+ 2. **Status** queries (queries that list standard information on an element)
+ 3. **Sumary** queries (queries that list a sumary of the status of the different data elements of an element)
+ 4. **Feed** queries (queries that list the last status updates for an element)
+ 
+ An **administrative query** is a query made by a priviledged user that
+ modifies element data, but not usually storaged updates.
+ Administrative queries include:
+  1. The element **creation** queries.
+  1. The element **modification** queries.
+  2. The element **deletion** queries.
+  
+**Specific queries**
+
+ 1.	**Greating query**
+ 
+	The greeting query is sent by a base element to identify itself
+	to the server at the begining of an update session.
+	The format is:
+	
+		GET <Datalog API URI>/<element>?group=<group>&name=<name>
+		
+	Where `<group>` is the ASCII short name of the group the base element
+	belogns to, and `<name>` is	the full UTF-8 name of the base element.
+	(Both correctly URL-encoded).
+	
+	This query must be authenticated via HTTP authentication per session
+	basis.  (As this is usually the first query in a session, the HTTP
+	authentication is usually include in this header)
+	
+	The authenticating user **IS** the same as `<element>`.
+	
+	**Response**
+	
+	`404` (both HTTP and JSON message) if the element does not exist,
+		regardless of authentication.
+		[Data Transmit](/chlewey/datatransmit) interprets this as the
+		need of a **Self-creation** query.
+		
+	`401` (both HTTP and JSON message) if authentication fails after
+		checking that the element exists in the database.
+		
+	`200` if everithing is okay.  The JSON response will only include
+		the fields `api` and `version` and an optional `action` field
+		if either `group` or `name` do not match.
+		[Data Transmit](/chlewey/datatransmit) interprets this `action`
+		field as the need of a **Self-modification** query.
+		
+	An aditional `action` field might request for an older update.
+
+ 1.	**Self-modification query**
+
+	The self-modification query is sent by a base element to uptade
+	information on itself.
+	The format is:
+	
+		PUT <Datalog API URI>/<element>
+		
+	And the body includes a JSON stream with at least the following
+	fields:
+	
+	 *	`group`	set to the small ASCII name of the group
+	 *	`name`	set to the full UTF-8 name of the base element
+	 *	`modify`	set to boolean True.
+	 
+	The following aditional fields might be included in the query
+	
+	 *	`passwd`	a new password.
+	 *	`items`	a list of item structures that will create or modify
+		item elements.  Elements not in the list will be preserved.
+		Note that each item structure might contain a list of
+		meter elements to be created, modified or deleted.
+	 *	`obsolet`	a list of item element identifiers that should
+		be removed.
+
+	This query must be HTTP-authenticated per session.
+	The authenticating user **IS** the same as `<element>`.
+		
+	**Response**
+	
+	`404` (both HTTP and JSON message) if the element does not exist,
+		regardless of authentication.
+		[Data Transmit](/chlewey/datatransmit) interprets this as the
+		need of a **Self-creation** query.
+		
+	`401` (both HTTP and JSON message) if authentication fails after
+		checking that the element exists in the database.
+		
+	`200` (both HTTP and JSON message) if no modification was made
+		in the database as all elements were already updated.
+		An aditional message will recognize this.
+	
+	`201` or `202` on success, the JSON message will only contain
+		the `api` and `version` fields and an aditional `new-ip` field
+		if the recorded IP address was also changed.
+		
+	An aditional `action` field might request for an older update.
+
+ 1.	**Self-cretion query**
+
+	The self-creation query is sent by a base element to create itself.
+	The format is:
+	
+		PUT <Datalog API URI>/<element>
+		
+	And the body includes a JSON stream with at least the following
+	fields:
+	
+	 *	`group`	set to the small ASCII name of the group
+	 *	`name`	set to the full UTF-8 name of the base element
+	 *	`user`	set to the small ASCII name of a privileged user.
+	 *	`userpw`	set to the password of the privileged user,
+		encripted or unencripted.
+	 *	`items`	a list of item structures that will create item
+		elements.
+		Note that each item structure might contain a list of
+		meter elements to be created.
+
+	**Response**
+	
+	`401`	(Both HTTP and JSON message) If the `user`/`userpw` pair
+		fails to authenticate.
+		
+	`403`	(Both HTTP and JSON message) If the `user` has no creation
+		privileges on the group.
+	
+	`409`	(Both HTTP and JSON message) If the element cannot be
+		created for any reason.  An aditional JSON field `code` will
+		be interpreted as following:
+	
+	 *	`1`	element already exists.
+	 *	`2`	database is blocked.
+	 
+	`201` or `202` on success, the JSON message will only contain
+		the `api` and `version` fields.
+		
+	An aditional `action` field might request for an older update.
+
+ 1.	**Keep-alive query**
+ 
+	A keep-alive query is a simple query that indicates that the base
+	element is up and transmiting, even if no update is present.
+	
+	The format is:
+	
+		GET <Datalog API URI>/<element>
+		
+	The keep-alive is HTTP-authenticated per session.
+	The authenticating user **IS** the same as `<element>`.
+
+	** Response **
+	
+	`404` (both HTTP and JSON message) if the element does not exist,
+		regardless of authentication.
+		[Data Transmit](/chlewey/datatransmit) interprets this as the
+		need of a **Self-creation** query.
+		
+	`401` (both HTTP and JSON message) if authentication fails after
+		checking that the element exists in the database.
+	
+	`200` (HTTP, and small JSON message) normal response when everything
+		is okay.
+		
+	`201` or `202` (HTTP, and small JSON message) normal response when
+		everything is okay, but sending IP address did not match
+		recorded IP address.  An aditional `new-ip` field in the
+		answer acknoleges the new IP address.
+		
+	An aditional `action` field might request for an older update.
+
+ 1.	**Update query**
+ 
+	A keep-alive query is a simple query that indicates that the base
+	element is up and transmiting, even if no update is present.
+	
+	The format is:
+	
+		POST <Datalog API URI>/<element>
+		
+	The POST data will include the updates in either JSON or Sqlite3
+	formats.
+		
+	The update query is HTTP-authenticated per session.
+	The authenticating user **IS** the same as `<element>`.
+
+	** Response **
+
+	Responses are similar to a keep-alive except:
+	
+	`409` (both HTTP and JSON message) if the update could not be
+		recorded after authentication succeeds.  A `code` field
+		will give a further reason.
+		
+	`201` and `202` will be normally issued acknoleging a successful
+		update, unless the updates were already recorded (in which
+		case a `200` was sent).
+		
+	An aditional `action` field might request for an older update.
+
+ 1.	**List query**
+ 
+	A list query is a query requesting a list of elments that can be
+	visible by a user on per-user, per-group or per base-element basis.
+	
+	This query can be HTTP authenticated per session, or GET-query
+	authenticated or not authenticated at all.
+	The format is:
+	
+		GET <Datalog API URI>[/][?user=<user>&passwd=<password>]
+		GET <Datalog API URI>/G/<group>[?user=<user>&passwd=<password>]
+		GET <Datalog API URI>/<element>/list[?user=<user>&passwd=<password>]
+
+	(For further user query usage the `user` and `passwd` query fields
+	 will be omited but assumed:)
+	
+		GET <Datalog API URI>
+		GET <Datalog API URI>/G/<group>
+		GET <Datalog API URI>/<element>/list
+
+	** Response **
+	
+	`401`	if authentication sent but fails.
+	
+	`404`	if group or base element does not exist.
+	
+	`200`	otherwise.  The JSON response will include the fields
+		`api`, `version` and `list`, the later a list of pairs
+		where first memeber of the pair is each base element and
+		the second elmenent is a list of item elements.
+		
+	The returning list might be empty if the user has no reading
+	privileges on the elements (or if there are no elements).
+
+ 1.	**Status query**
+ 
+	A status query asks for general information on an element.
+	The format is:
+
+		GET <Datalog API URI>/<element>
+		GET <Datalog API URI>/<element>/<item>
+		
+	A status query is diferenciated to a keep-alive query as either
+	there is no authenticating user o the autenticating user **is not**
+	the same as `<element>`.
+	
+	** Responses**
+	
+	The following responses can occure: `404`, `401`, `403` or `200`.
+	
+	A success query will include a `data` field retrieving general data
+	on the requested element.
+
+ 1.	**Summary query**
+
+	A summary query asks for general information on an element
+	and a summary of the updates.
+	The format is:
+
+		GET <Datalog API URI>/<element>/summary
+		GET <Datalog API URI>/<element>/<item>/summary
+		GET <Datalog API URI>/<element>/<item>/<meter>
+	
+	The summary query can be authenticated or not authenticated.	
+	
+	** Responses**
+	
+	The following responses can occur: `404`, `401`, `403` or `200`.
+	
+	A success query will include a `data` field retrieving general 
+	and summary data on the requested element.
+  
+ 1.	**Feed query**
+
+	A feed query asks for the latest status updates of an element
+	or for the updates in a given period.
+	The format is:
+
+		GET <Datalog API URI>/<element>/feed[/<n>]
+		GET <Datalog API URI>/<element>/<item>/feed[/<n>]
+		GET <Datalog API URI>/<element>/<item>/<meter>/feed[/<n>]
+		
+	Two aditional GET query fields can be sent: `begin` and `end`
+	providing the begin and end period for the updates.
+	
+	An aditional GET query field `alarm` can have the value `yes`,
+	`no` or `only`.  This will filter alarm status.
+	If the query field is not provided is assumed as `yes`.
+	If the query field is provided with no value is assumed as `only`. 
+	
+	The summary query can be authenticated or not authenticated.
+	
+	** Responses**
+	
+	The following responses can occur: `404`, `401`, `403` or `200`.
+	
+	A success query will include a `feed` field retrieving a list of
+	status.
+  
+ 
+ 1.	**Element creation query**
+ 
+ 2.	**Element modification query**
+ 
+ 3. **Element deletion query**
+ 
+Avatar and Banner APIs
+----------------------
+
+**Usage**
+
+    <METHOD> <Server URL>/<API>/<Aditional Info>
+
+Where `<METHOD>` might be a `GET`, `PUT` or `DELETE` HTTP verb.
+(so far only `GET` method is implemented.)
+
+The `<Server URL>` is the URL of the Server.  This is irrelevant to the API.
+The combination `<Server URL>/<API>` can be referred as `<Image API URI>`,
+where `<API>` might be either `avatar` or `banner`.
+
+The `<Aditional Info>` might refer to an image index or an element identifier
+plus and optional size and format.
+
+	<Aditional Info> := <image index>[/[<size>][.<format>]]
+	<Aditional Info> := <element>[/[<size>][.<format>]]
+	
+ 1.	**The `GET` query**
+
+	If not size and format is given, the `GET` query will return a JSON
+	stream listing all available sizes of the image, plus aditional
+	information.
+
+	If a size is given, the `GET` query will return the image for that
+	size.  If a format is given, it will convert the image to that
+	format.  Only the `png`, `gif` and `jpeg` formats are recognized
+	with case insensitive comparision for `png`, `gif` and `jpe?g`.
+	
+	**Response**
+	
+	The API will return a 404 HTTP response and a JSON `/status/404`
+	with a `message` further explaining what could not be found if
+	an image data could not be found.
+	
+	The API will return a 200 HTTP resposne with either a JSON message
+	if no size is given or with the actual image data (and proper
+	`Content-type` declaration) is the image was found.
+	
+	Avatars and banners are considered safe data, and no authentication
+	is required, therefor no 401 or 403 will be returned.
+	
+ 2. **the `PUT` query**
+ 
+    The `PUT` query requires user authentication (and relevant privileges).
+    This query will add (or replace) an image for the given resource.
+    
+    If no size is specified the call will create all relevant sizes
+    for that element or index.  If a size is specified, the call will
+    only add or replace that size.
+    
+    **Response**
+    
+    Possible responses are:
+    
+    `401`	(both HTTP and as a JSON body) if the user does not
+		authenticate or fails in the authentication process.
+	
+	`403`	(both HTTP and as a JSON body) if the user does not
+		have privileges to modify that particular element or
+		avatar index. (Only site superusers can modify an avatar index.)
+		Also if there is something wrong with the data, v.g. if the
+		file format is not recognized or no file was provided.
+	
+	`404`	(both HTTP and as a JSON body) if the element does not
+		exists.  (Never issued if an index is provided, but this might
+		bring a 403 error)
+	
+	`201` or `202`	(both HTTP and as a JSON body) on success.
+		The `201` will be issued if the change is ready and the `202`
+		if it is scheduled.
+
+ 2. **the `DELETE` query**
+ 
+    The `DELETE` query requires user authentication (and relevant privileges).
+    This query will remove an image for the given resource.
+    
+    If no size is specified the call will delete all relevant sizes
+    for that element or index.  If a size is specified, the call will
+    only remove that size.
+
+    **Response**
+    
+    Possible responses are:
+    
+    `401`	(both HTTP and as a JSON body) if the user does not
+		authenticate or fails in the authentication process.
+	
+	`403`	(both HTTP and as a JSON body) if the user does not
+		have privileges to modify that particular element or
+		avatar index. (Only site superusers can modify an avatar index.)
+	
+	`404`	(both HTTP and as a JSON body) if the element or index does
+		not exists.
+	
+	`204`	(HTTP only, no data as body) on success.
+
+
+
   
 The Data API will receive the following type of messages:
 
