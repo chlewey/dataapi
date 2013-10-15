@@ -8,7 +8,7 @@ date_default_timezone_set('America/Bogota');
 require_once "lib/api.php";
 require_once "lib/db.php";
 
-class datalog extends api {
+class datalog extends rest_api {
 	function __construct() {
 		api::__construct('datalog','0.41');
 		$this->db = require_once 'config/db.php';

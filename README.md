@@ -90,10 +90,10 @@ The auto-queries include:
  3. A **keep-alive** query
  4. An **update** query
  
-Most of these queries are handled by the [Data Transmit](/chlewey/datatransmit) program.
+Most of these queries are handled by the [Data Transmit][1] program.
 
 All successful response to an autoquery might include an `action` field.
-This field commands the [Data Transmit](/chlewey/datatransmit) program
+This field commands the [Data Transmit][1] program
 to perform an aditional query such as sending a **self-modification**
 query or an **update** for older data.
 
@@ -139,7 +139,7 @@ User queries include:
 	
 	`404` (both HTTP and JSON message) if the element does not exist,
 		regardless of authentication.
-		[Data Transmit](/chlewey/datatransmit) interprets this as the
+		[Data Transmit][1] interprets this as the
 		need of a **Self-creation** query.
 		
 	`401` (both HTTP and JSON message) if authentication fails after
@@ -148,7 +148,7 @@ User queries include:
 	`200` if everithing is okay.  The JSON response will only include
 		the fields `api` and `version` and an optional `action` field
 		if either `group` or `name` do not match.
-		[Data Transmit](/chlewey/datatransmit) interprets this `action`
+		[Data Transmit][1] interprets this `action`
 		field as the need of a **Self-modification** query.
 		
 	An aditional `action` field might request for an older update.
@@ -185,7 +185,7 @@ User queries include:
 	
 	`404` (both HTTP and JSON message) if the element does not exist,
 		regardless of authentication.
-		[Data Transmit](/chlewey/datatransmit) interprets this as the
+		[Data Transmit][1] interprets this as the
 		need of a **Self-creation** query.
 		
 	`401` (both HTTP and JSON message) if authentication fails after
@@ -257,7 +257,7 @@ User queries include:
 	
 	`404` (both HTTP and JSON message) if the element does not exist,
 		regardless of authentication.
-		[Data Transmit](/chlewey/datatransmit) interprets this as the
+		[Data Transmit][1] interprets this as the
 		need of a **Self-creation** query.
 		
 	`401` (both HTTP and JSON message) if authentication fails after
@@ -772,3 +772,5 @@ conflict or by lock-down, answer 409.  If it will not be committed by any
 other reason, answer 403.
 
 Otherwise answer 200.
+
+	[1] http://github.com/chlewey/datatransmit
