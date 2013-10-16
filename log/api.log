@@ -1021,3 +1021,5 @@
 [Tue Oct 15 22:37:20 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined index:  in /var/www/vhosts/api/root/lib/datalog.php on line 174
 [Tue Oct 15 22:38:23 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined variable: data in /var/www/vhosts/api/root/lib/api.php on line 137
 [Tue Oct 15 22:38:23 2013] [error] [client 190.146.246.177] PHP Notice:  Use of undefined constant json_last_error - assumed 'json_last_error' in /var/www/vhosts/api/root/lib/api.php on line 138
+[Tue Oct 15 23:03:15 2013] [error] [client 190.146.246.177] PHP Notice:  Undefined variable: data in /var/www/vhosts/api/root/lib/api.php on line 137
+[Tue Oct 15 23:03:15 2013] [error] [client 190.146.246.177] PHP Notice:  Use of undefined constant json_last_error - assumed 'json_last_error' in /var/www/vhosts/api/root/lib/api.php on line 138
