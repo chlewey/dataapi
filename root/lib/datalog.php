@@ -10,7 +10,7 @@ require_once "lib/db.php";
 
 class datalog extends rest_api {
 	function __construct() {
-		api::__construct('datalog','0.41');
+		rest_api::__construct('datalog','0.41');
 		$this->db = require_once 'config/db.php';
 		$l = isset($_SERVER['REDIRECT_URL'])? $_SERVER['REDIRECT_URL']: (
 			isset($_SERVER['REQUEST_URI'])? $_SERVER['REQUEST_URI']: '');
@@ -161,7 +161,7 @@ class datalog extends rest_api {
 				$this->base_info($b);
 	}
 
-	function go() {
+	function go_get() {
 		$action = !empty($this->action)? $this->action: (
 			empty($_REQUEST['action'])? false: $_REQUEST['action']);
 		if(method_exists($this,$act="go_$action")) return $this->$act();

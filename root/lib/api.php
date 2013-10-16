@@ -44,12 +44,12 @@ class status {
 		504=>array('Gateway Timeout',''),
 		505=>array('HTTP Version Not Supported',''),
 	);
-	
-	static exists($n) { return isset(status::$status[$n]); }
-	static title($n,$alt=null) { return isset(status::$status[$n])?status::$status[$n][0]:$alt; }
-	static message($n,$alt=null) { return isset(status::$status[$n])?status::$status[$n][1]:$alt; }
-	static pair($n) { return isset(status::$status[$n])?status::$status[$n]:null; }
-}
+
+	static function exists($n) { return isset(status::$status[$n]); }
+	static function title($n,$alt=null) { return isset(status::$status[$n])?status::$status[$n][0]:$alt; }
+	static function message($n,$alt=null) { return isset(status::$status[$n])?status::$status[$n][1]:$alt; }
+	static function pair($n) { return isset(status::$status[$n])?status::$status[$n]:null; }
+};
 
 class api {
 	public $R = array();
@@ -116,7 +116,7 @@ class rest_api extends api {
 		api::__construct($apiname,$apiversion);
 
 		$this->http_accept	= (strpos($_SERVER['HTTP_ACCEPT'], 'json')) ? 'json' : 'xml';
-		
+
 		$action = strtolower($_SERVER['REQUEST_METHOD']);
 		if($action=='put') {
 			$data = file_get_contents('php://input');
@@ -133,7 +133,7 @@ class rest_api extends api {
 		}
 
 		$this->method = in_array($action,array('post','put','delete'))? $action: 'get';
-		
+
 		$this->data = json_decode($data);
 		if(json_last_error != JSON_ERROR_NONE)
 			$this->data = $data;
@@ -141,5 +141,14 @@ class rest_api extends api {
 	public function get($var,$alt=null) { return isset($this->request_vars[$var])?$this->request_vars[$var]:$alt; }
 	public function get_data($alt=null) { return empty($this->data)? (isset($alt)? $alt: array()): $this->data; }
 	public function get_method() { return $this->method; }
+	
+	public function go($param=null) {
+		if(method_exists($this,$M='go_'.$this->method))
+			return $this->$M($param);
+		$this->response('method',$this->method);
+		if(isset($params))
+			$this->response('params',$params);
+		return false;
+	}
 };
 ?>

@@ -13,7 +13,7 @@ $GLOBALS['formats'] = array(
 	'jpg' => 'jpeg',
 );
 
-class image extends api {
+class image extends rest_api {
 	function __construct($imagetype) {
 		api::__construct($imagetype,'0.1');
 		$this->db = require_once 'config/db.php';
