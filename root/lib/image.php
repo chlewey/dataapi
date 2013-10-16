@@ -18,13 +18,15 @@ class image extends rest_api {
 		rest_api::__construct($imagetype,'0.2');
 		$this->db = require_once 'config/db.php';
 		$this->makepic = false;
-		$this->line = isset($_SERVER['REDIRECT_URL'])? $_SERVER['REDIRECT_URL']: (
-			isset($_SERVER['REQUEST_URI'])? $_SERVER['REQUEST_URI']: '');
 	}
 
 	function setbases($basedir,$baseurl) {
 		$this->basedir = $basedir;
 		$this->baseurl = $baseurl;
+		$this->go();
+	}
+	
+	function go_get() {
 		$line = $this->line;
 		if(preg_match('{^/?(\w+)/(\d+)(?:/(\w+)(?:\.(\w+))?\b)?()}',$line,$m))
 			return $this->get_by_num($m);

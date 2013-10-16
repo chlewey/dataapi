@@ -111,10 +111,18 @@ class rest_api extends api {
 	private $data;
 	private $http_accept;
 	private $method;
+	private $line_path;
+	public $line;
 
 	function __construct($apiname,$apiversion) {
 		api::__construct($apiname,$apiversion);
 
+		$this->line = $l = isset($_SERVER['REDIRECT_URL'])? $_SERVER['REDIRECT_URL']: (
+			isset($_SERVER['REQUEST_URI'])? $_SERVER['REQUEST_URI']: '');
+		if(($n=strpos($l,'?'))!==false)
+			$this->line_path = explode('/',ltrim(substr($l,$n),'/'));
+		else
+			$this->line_path = explode('/',ltrim($l,'/'));
 		$this->http_accept	= (strpos($_SERVER['HTTP_ACCEPT'], 'json')) ? 'json' : 'xml';
 
 		$action = strtolower($_SERVER['REQUEST_METHOD']);
@@ -141,6 +149,8 @@ class rest_api extends api {
 	public function get($var,$alt=null) { return isset($this->request_vars[$var])?$this->request_vars[$var]:$alt; }
 	public function get_data($alt=null) { return empty($this->data)? (isset($alt)? $alt: array()): $this->data; }
 	public function get_method() { return $this->method; }
+	public function get_path($n=null) { return isset($n)? $this->line_path[$n]: $this->line_path; }
+	public function get_path_len() { return count($this->line_path); }
 	
 	public function go($param=null) {
 		if(method_exists($this,$M='go_'.$this->method))
