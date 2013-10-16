@@ -15,7 +15,7 @@ $GLOBALS['formats'] = array(
 
 class image extends rest_api {
 	function __construct($imagetype) {
-		api::__construct($imagetype,'0.1');
+		rest_api::__construct($imagetype,'0.2');
 		$this->db = require_once 'config/db.php';
 		$this->makepic = false;
 		$this->line = isset($_SERVER['REDIRECT_URL'])? $_SERVER['REDIRECT_URL']: (
